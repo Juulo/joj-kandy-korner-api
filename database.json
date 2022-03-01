@@ -1,0 +1,295 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "address": "166 Wagon Ave.",
+      "sqft": 1200,
+      "handicap": true
+    },
+    {
+      "id": 2,
+      "address": "47 Bay Meadows Court.",
+      "sqft": 1320,
+      "handicap": true
+    },
+    {
+      "id": 3,
+      "address": "42 Parker St.",
+      "sqft": 1100,
+      "handicap": false
+    },
+    {
+      "id": 4,
+      "address": "9884 Golf Lane",
+      "sqft": 1100,
+      "handicap": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Fairy Thumb",
+      "productTypeId": 2,
+      "price": 2.99
+    },
+    {
+      "id": 2,
+      "name": "Stomach Destroyer",
+      "productTypeId": 1,
+      "price": 4.99
+    },
+    {
+      "id": 3,
+      "name": "Atomic Sours",
+      "productTypeId": 4,
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Space Ice",
+      "productTypeId": 4,
+      "price": 2.99
+    },
+    {
+      "id": 5,
+      "name": "Irish Mints",
+      "productTypeId": 4,
+      "price": 0.99
+    },
+    {
+      "id": 6,
+      "name": "Egyptian Rues",
+      "productTypeId": 3,
+      "price": 3.25
+    }
+  ],
+  "employees": [
+    {
+      "id": 2,
+      "name": "Agata Subramanian",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Brianna Elisa",
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "name": "Alon Manoela",
+      "locationId": 2
+    },
+    {
+      "id": 5,
+      "name": "Filip Tuur",
+      "locationId": 2
+    },
+    {
+      "id": 7,
+      "name": "Donna Ebbe",
+      "locationId": 4
+    },
+    {
+      "id": 8,
+      "name": "Lesya Taisa",
+      "locationId": 4
+    },
+    {
+      "id": 9,
+      "name": "Andrei Chander",
+      "locationId": 1
+    },
+    {
+      "name": "Rae Schemmy",
+      "locationId": 2,
+      "manager": "on",
+      "fullTime": "on",
+      "hourlyRate": "30",
+      "id": 10
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hot Candy"
+    },
+    {
+      "id": 2,
+      "type": "Sweet Candy"
+    },
+    {
+      "id": 3,
+      "type": "Gum Candy"
+    },
+    {
+      "id": 4,
+      "type": "Hard Candy"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Ada Renato"
+    },
+    {
+      "id": 2,
+      "name": "Sharyl Antónia"
+    },
+    {
+      "id": 3,
+      "name": "Vlastimil Cynfelyn"
+    },
+    {
+      "id": 4,
+      "name": "Ilona Yehosheva"
+    },
+    {
+      "id": 5,
+      "name": "Harish Qusay"
+    },
+    {
+      "id": 6,
+      "name": "Priscus Deonne"
+    },
+    {
+      "id": 7,
+      "name": "Glaukos Kizzie"
+    },
+    {
+      "id": 8,
+      "name": "Salathiel Munir"
+    },
+    {
+      "id": 9,
+      "name": "Pooja Kamal"
+    },
+    {
+      "id": 11,
+      "name": "Sylvia Melita"
+    },
+    {
+      "id": 12,
+      "name": "Pervin Flann"
+    },
+    {
+      "id": 13,
+      "name": "Aleksandar Columbán"
+    },
+    {
+      "id": 14,
+      "name": "Erna Lenox"
+    },
+    {
+      "id": 15,
+      "name": "Mahendra Laurita"
+    },
+    {
+      "id": 16,
+      "name": "Vital Vadimir"
+    },
+    {
+      "id": 17,
+      "name": "Radha Tamsin"
+    },
+    {
+      "id": 18,
+      "name": "Despoina Jamyang"
+    },
+    {
+      "id": 19,
+      "name": "Elvira Holger"
+    },
+    {
+      "name": "Telly Neal",
+      "address": "4180 Nope Tha Nope",
+      "email": "telly@neal.com",
+      "id": 20
+    }
+  ],
+  "purchases": [
+    {
+      "id": 3,
+      "customerId": 3,
+      "employeeId": 2,
+      "productId": 1
+    },
+    {
+      "id": 4,
+      "customerId": 4,
+      "employeeId": 3,
+      "productId": 1
+    },
+    {
+      "id": 5,
+      "customerId": 5,
+      "employeeId": 4,
+      "productId": 1
+    },
+    {
+      "id": 6,
+      "customerId": 6,
+      "employeeId": 5,
+      "productId": 1
+    },
+    {
+      "id": 8,
+      "customerId": 8,
+      "employeeId": 7,
+      "productId": 1
+    },
+    {
+      "id": 9,
+      "customerId": 9,
+      "employeeId": 3,
+      "productId": 1
+    },
+    {
+      "id": 11,
+      "customerId": 11,
+      "employeeId": 9,
+      "productId": 1
+    },
+    {
+      "id": 12,
+      "customerId": 12,
+      "employeeId": 9,
+      "productId": 1
+    },
+    {
+      "id": 13,
+      "customerId": 13,
+      "employeeId": 9,
+      "productId": 1
+    },
+    {
+      "id": 14,
+      "customerId": 14,
+      "employeeId": 8,
+      "productId": 1
+    },
+    {
+      "id": 15,
+      "customerId": 15,
+      "employeeId": 4,
+      "productId": 1
+    },
+    {
+      "id": 16,
+      "customerId": 16,
+      "employeeId": 2,
+      "productId": 1
+    },
+    {
+      "id": 17,
+      "customerId": 17,
+      "employeeId": 5,
+      "productId": 1
+    },
+    {
+      "id": 18,
+      "customerId": 18,
+      "employeeId": 7,
+      "productId": 1
+    }
+  ]
+}
